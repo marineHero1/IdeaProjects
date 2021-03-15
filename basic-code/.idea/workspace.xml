@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c2f5e9c-dc4e-424a-9ada-0c484d2b5212" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1nshkaFeVfurkVKb8nhVSaz6jsW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ecnu.ObjectOriented.demo04" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="A" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\JAVA\jdk1.8.0_162\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.A" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiDeque" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiHashMap" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiHashSet" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiQueue" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiRandom (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApiRandom" />
+      <module name="day01-code" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.Test" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ObjectOriented1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ObjectOriented1" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="Application.ApiRandom (1)" />
+      <item itemvalue="Application.ApiHashMap" />
+      <item itemvalue="Application.ApiHashSet" />
+      <item itemvalue="Application.ApiDeque" />
+      <item itemvalue="Application.ApiQueue" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ApiQueue" />
+        <item itemvalue="Application.ApiDeque" />
+        <item itemvalue="Application.ApiHashSet" />
+        <item itemvalue="Application.ApiHashMap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c2f5e9c-dc4e-424a-9ada-0c484d2b5212" name="Default Changelist" comment="" />
+      <created>1612184852030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612184852030</updated>
+      <workItem from="1612184853644" duration="59000" />
+      <workItem from="1612184923110" duration="4701000" />
+      <workItem from="1612194942223" duration="5016000" />
+      <workItem from="1612359823505" duration="3569000" />
+      <workItem from="1612432481129" duration="2716000" />
+      <workItem from="1612498459158" duration="11769000" />
+      <workItem from="1612676412195" duration="593000" />
+      <workItem from="1612704571183" duration="3506000" />
+      <workItem from="1613402797646" duration="16000" />
+      <workItem from="1613403107336" duration="198000" />
+      <workItem from="1613403322092" duration="909000" />
+      <workItem from="1613404262939" duration="1028000" />
+      <workItem from="1613405837937" duration="51000" />
+      <workItem from="1613405905663" duration="82000" />
+      <workItem from="1613406096353" duration="219000" />
+      <workItem from="1613406339496" duration="67000" />
+      <workItem from="1613406436867" duration="46000" />
+      <workItem from="1613406489449" duration="72000" />
+      <workItem from="1613406895211" duration="887000" />
+      <workItem from="1613407815376" duration="259000" />
+      <workItem from="1613450195481" duration="9938000" />
+      <workItem from="1613543255232" duration="5413000" />
+      <workItem from="1613728873045" duration="1188000" />
+      <workItem from="1613805120711" duration="4929000" />
+      <workItem from="1613898571305" duration="4008000" />
+      <workItem from="1613903929635" duration="2027000" />
+      <workItem from="1614069114591" duration="2980000" />
+      <workItem from="1614174909227" duration="752000" />
+      <workItem from="1614436387339" duration="1755000" />
+      <workItem from="1614489002151" duration="11599000" />
+      <workItem from="1614689768190" duration="1004000" />
+      <workItem from="1614920210034" duration="2401000" />
+      <workItem from="1615255568780" duration="4298000" />
+      <workItem from="1615345997334" duration="1509000" />
+      <workItem from="1615379347035" duration="600000" />
+      <workItem from="1615730661375" duration="3628000" />
+      <workItem from="1615787515024" duration="320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
