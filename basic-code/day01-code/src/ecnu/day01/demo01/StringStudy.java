@@ -33,6 +33,7 @@ public class StringStudy {
 
         // .split(regexString)按照参数规则regexString切分字符串，返回字符串数组
         // regex是一个正则表达式，英文句点"."进行切分，必须"\\."
+        // s.trim()去除首尾空格
         String str = "aaa.bbb.ccc";
         String[] strArray = str.split("\\.");
         for (int i = 0; i < strArray.length; i++) {

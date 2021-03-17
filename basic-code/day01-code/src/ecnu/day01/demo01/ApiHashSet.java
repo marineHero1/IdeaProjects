@@ -18,5 +18,7 @@ public class ApiHashSet {
         System.out.println(set.size());
         set.remove(1);
         System.out.println(set);
+        //set值的获取使用for
+        System.out.println(set.iterator().next());
     }
 }
