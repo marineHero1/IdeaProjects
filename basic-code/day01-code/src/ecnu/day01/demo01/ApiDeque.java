@@ -12,7 +12,15 @@ public class ApiDeque {
         stack.push(3);
         System.out.println(stack);
         System.out.println(stack.peek());
+        System.out.println(stack.peek());
         System.out.println(stack.pop());
         System.out.println(stack.size());
+        int i=1999;
+        int j=1999;
+        System.out.println(i==j);
+        Integer m=1999;
+        Integer n=1999;
+        System.out.println(m==n);
+        System.out.println(m.equals(n));
     }
 }

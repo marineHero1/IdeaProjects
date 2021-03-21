@@ -21,7 +21,7 @@ public class StringStudy {
         //fun2();
 
         //字符串常用方法：
-        // .length字符串长度
+        // .length()字符串长度
         // .concat当前字符串与参数字符串拼接返回
         // .charAt返回索引位置的单个字符
         // .indexOf查找字符串中参数字符首次出现的索引位置，若没有返回-1
@@ -32,8 +32,11 @@ public class StringStudy {
         // .replace(oldString,newString)将字符串中oldString替换为newString，并返回变换后的字符串
 
         // .split(regexString)按照参数规则regexString切分字符串，返回字符串数组
-        // regex是一个正则表达式，英文句点"."进行切分，必须"\\."
+        // regex是一个正则表达式，如果使用英文句点"."进行切分，必须"\\."
         // s.trim()去除首尾空格
+
+        //Integer.parseInt(str)  str-to-int
+        //Integer.toString(int)  int-to-str
         String str = "aaa.bbb.ccc";
         String[] strArray = str.split("\\.");
         for (int i = 0; i < strArray.length; i++) {
