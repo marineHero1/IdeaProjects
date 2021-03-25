@@ -38,6 +38,10 @@ public class StringStudy {
         //Integer.parseInt(str)  str-to-int
         //Integer.toString(int)  int-to-str
         String str = "aaa.bbb.ccc";
+        // .compareTo(数字字符串) 数字字符串之间进行比较，大返回1，等返回0，小返回-1
+        System.out.println("21".compareTo("20"));;
+
+        System.out.println("-3".compareTo("-2"));;
         String[] strArray = str.split("\\.");
         for (int i = 0; i < strArray.length; i++) {
             System.out.println(strArray[i]);

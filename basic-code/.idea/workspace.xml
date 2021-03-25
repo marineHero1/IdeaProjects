@@ -55,40 +55,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ecnu.ObjectOriented.redImpl" />
       <recent name="ecnu.ObjectOriented.demo04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainRedPacket">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="A" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:\JAVA\jdk1.8.0_162\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.A" />
-      <module name="day01-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ecnu.day01.demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiDeque" />
-      <module name="day01-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ecnu.day01.demo01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiHashSet" />
       <module name="day01-code" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiStringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.ApiStringBuilder" />
-      <module name="day01-code" />
+    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.ObjectOriented.redImpl.Bootstrap" />
+      <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="PATTERN" value="ecnu.ObjectOriented.redImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +95,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainRedPacket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.ObjectOriented.demo03.MainRedPacket" />
+    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.ObjectOriented.i_nimingInnerClass.DemoMain" />
       <module name="ObjectOriented" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecnu.ObjectOriented.demo03.*" />
+          <option name="PATTERN" value="ecnu.ObjectOriented.i_nimingInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.ObjectOriented.j_chengyuanbianliang.DemoMain" />
+      <module name="ObjectOriented" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.ObjectOriented.j_chengyuanbianliang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Multi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.ObjectOriented.f_Multi.Multi" />
+      <module name="ObjectOriented" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.ObjectOriented.f_Multi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,19 +216,19 @@
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.ApiRandom (1)" />
-      <item itemvalue="Application.ApiHashSet" />
-      <item itemvalue="Application.ApiDeque" />
+      <item itemvalue="Application.Multi" />
+      <item itemvalue="Application.DemoMain (1)" />
+      <item itemvalue="Application.DemoMain (2)" />
+      <item itemvalue="Application.Bootstrap" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.ApiStringBuilder" />
-      <item itemvalue="Application.MainRedPacket" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainRedPacket" />
-        <item itemvalue="Application.ApiStringBuilder" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ApiDeque" />
-        <item itemvalue="Application.ApiHashSet" />
+        <item itemvalue="Application.Bootstrap" />
+        <item itemvalue="Application.DemoMain (2)" />
+        <item itemvalue="Application.DemoMain (1)" />
+        <item itemvalue="Application.Multi" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +281,11 @@
       <workItem from="1615983949757" duration="5447000" />
       <workItem from="1616065416779" duration="3612000" />
       <workItem from="1616213541649" duration="5940000" />
-      <workItem from="1616326426298" duration="359000" />
+      <workItem from="1616326426298" duration="1503000" />
+      <workItem from="1616394332962" duration="3088000" />
+      <workItem from="1616466421556" duration="1347000" />
+      <workItem from="1616642886137" duration="7287000" />
+      <workItem from="1616659062450" duration="4720000" />
     </task>
     <servers />
   </component>
