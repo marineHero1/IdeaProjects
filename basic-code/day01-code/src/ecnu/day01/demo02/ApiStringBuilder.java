@@ -1,5 +1,5 @@
 package ecnu.day01.demo02;
-
+//setCharAt(index,'a')
 public class ApiStringBuilder {
     public static void main(String[] args) {
         String s = "  hello  world!  ";
