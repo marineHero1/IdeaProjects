@@ -1,8 +1,17 @@
-package ecnu.day01.demo01;
+package ecnu.day01.demo02;
 
 import java.util.Deque;
 import java.util.LinkedList;
-
+/*
+    .push()
+    .peek()
+    .pop()
+    .size()
+    .offerLast()
+    .offerFirst()
+    .pollLast()
+    .pollFirst()
+ */
 public class ApiDeque {
     public static void main(String[] args) {
         Deque<Integer> stack = new LinkedList<>();

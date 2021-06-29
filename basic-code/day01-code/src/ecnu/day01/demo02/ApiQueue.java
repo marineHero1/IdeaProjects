@@ -1,9 +1,14 @@
-package ecnu.day01.demo01;
+package ecnu.day01.demo02;
 
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
-
+/*
+    .offer()
+    .peek()
+    .poll()
+    .size()
+ */
 public class ApiQueue {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();

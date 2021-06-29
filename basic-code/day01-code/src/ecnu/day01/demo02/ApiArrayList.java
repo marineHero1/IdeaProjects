@@ -1,4 +1,4 @@
-package ecnu.day01.demo01;
+package ecnu.day01.demo02;
 
 import java.util.ArrayList;
 /*
@@ -22,6 +22,10 @@ import java.util.ArrayList;
         get(int index) 从集合中获得元素
         remove(int index) 从集合中删除并获取元素
         size() 返回集合的尺寸长度
+        subList(0,k) 返回0到k的list
+    Collections:
+        Collections.sort()排序
+        Collections.reverse()反转
  */
 public class ApiArrayList {
     public static void main(String[] args) {
@@ -35,7 +39,7 @@ public class ApiArrayList {
         for(int i=0;i<list.size();i++){//list.fori通过idea可以自动生成这一行
             System.out.print(list.get(i)+" ");
         }
-        System.out.println();
+        System.out.println(list.subList(0,3));
         for(int i=list.size()-1;i>=0;i--){
             System.out.print(list.remove(i)+" ");
         }

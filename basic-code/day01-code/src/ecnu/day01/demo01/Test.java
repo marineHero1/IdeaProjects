@@ -16,42 +16,12 @@ public class Test {
         System.out.println(-1024==-1024);
         System.out.println("=========");
         Arrays.sort(nums);
+        System.out.println(0^2^2^2);
+        System.out.println("--".matches("[\\-]"));
+        System.out.println(312347981645l*2);
 
     }
 
 
 }
-class MinStack {
-    int min = Integer.MAX_VALUE;
-    Deque<Integer> stackMin;
-    Deque<Integer> stack;
-    /** initialize your data structure here. */
-    public MinStack() {
-        stackMin = new LinkedList<>();
-        stack = new LinkedList<>();
-        stackMin.push(min);
-    }
 
-    public void push(int x) {
-        stack.push(x);
-        if(stackMin.peek()>=x){
-            stackMin.push(x);
-        }
-    }
-
-    public void pop() {
-        if(stackMin.peek()==stack.peek()){
-            stackMin.pop();
-        }
-        stack.pop();
-
-    }
-
-    public int top() {
-        return stack.peek();
-    }
-
-    public int min() {
-        return stackMin.peek();
-    }
-}

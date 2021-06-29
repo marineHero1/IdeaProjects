@@ -1,4 +1,4 @@
-package ecnu.day01.demo01;
+package ecnu.day01.demo02;
 
 public class ApiStringBuilder {
     public static void main(String[] args) {

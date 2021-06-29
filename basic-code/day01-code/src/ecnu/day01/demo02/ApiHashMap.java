@@ -1,13 +1,16 @@
-package ecnu.day01.demo01;
+package ecnu.day01.demo02;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.List;
 /*
     .containsKey(index)
     .get(index)
     .put(index,value)
     .keySet()
     .values()
+    .getOrDefault()
  */
 public class ApiHashMap {
     public static void main(String[] args) {
@@ -40,5 +43,22 @@ public class ApiHashMap {
         ArrayList<Integer> list = new ArrayList<>(h.keySet());
         System.out.println(list);
         return res;
+    }
+
+    //HashMap按value排序
+    public static List<String> topKFrequent(String[] words, int k) {
+        Map<String,Integer> map = new HashMap<>();
+        for(String word:words){
+            map.put(word,map.getOrDefault(word,0)+1);
+        }
+        ArrayList<String> list = new ArrayList<>(map.keySet());
+        list.sort((a,b)->{
+            if(map.get(a).equals(map.get(b))){
+                return a.compareTo(b);
+            }else{
+                return map.get(b) - map.get(a);
+            }
+        });
+        return list.subList(0,k);
     }
 }

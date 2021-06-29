@@ -1,4 +1,4 @@
-package ecnu.day01.demo01;
+package ecnu.day01.demo02;
 
 import java.util.HashSet;
 
