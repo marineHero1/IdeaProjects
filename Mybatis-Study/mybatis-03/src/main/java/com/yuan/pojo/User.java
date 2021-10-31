@@ -6,14 +6,23 @@ import org.apache.ibatis.type.Alias;
 public class User {
     private int id;
     private String name;
-    private String pwd;
+    private String password;
+
+    public User() {
+    }
+
+    public User(int id, String name, String password) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+    }
 
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", pwd='" + pwd + '\'' +
+                ", password='" + password + '\'' +
                 '}';
     }
 
@@ -33,20 +42,11 @@ public class User {
         this.name = name;
     }
 
-    public String getPwd() {
-        return pwd;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
-    }
-
-    public User(int id, String name, String pwd) {
-        this.id = id;
-        this.name = name;
-        this.pwd = pwd;
-    }
-
-    public User() {
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

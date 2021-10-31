@@ -37,7 +37,7 @@ public class UserDaoTest {
     public void addUser(){
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        int num = mapper.addUser(new User(5, "哥哥", "123456"));
+        int num = mapper.addUser(new User(3, "妹妹", "123456"));
         if(num>0){
             System.out.println("用户添加成功");
         }
@@ -63,29 +63,5 @@ public class UserDaoTest {
         sqlSession.close();
 
 
-    }
-    @Test
-    public void selectByNP(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        //User user = mapper.selectUserByNameAndPwd("好妹妹", "123123");
-        Map<String,Object> map = new HashMap<>();
-        map.put("userName","好妹妹");
-        map.put("pwd","123123");
-        User user = mapper.selectUserByNameAndPwd(map);
-        System.out.println(user);
-        sqlSession.close();
-
-
-    }
-    @Test
-    public void selectLike(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        List<User> users = mapper.selectLike("user%");
-        for(User user:users){
-            System.out.println(user);
-        }
-        sqlSession.close();
     }
 }

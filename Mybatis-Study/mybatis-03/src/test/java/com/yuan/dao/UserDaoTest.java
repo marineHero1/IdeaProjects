@@ -4,6 +4,7 @@ import com.yuan.Dao.UserMapper;
 import com.yuan.pojo.User;
 import com.yuan.utils.MybatisUtils;
 import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -11,57 +12,37 @@ import java.util.List;
 import java.util.Map;
 
 public class UserDaoTest {
+    static Logger logger = Logger.getLogger(UserDaoTest.class);
+
     @Test
     public void test(){
         //第一步，获得SqlSession对象
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         //执行SQL
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        List<User> userList =  mapper.getUserList();
-        for(User user:userList){
-            System.out.println(user);
-        }
+        User user = mapper.getUserById(1);
+        System.out.println(user);
         //关闭SqlSession对象
         sqlSession.close();
     }
     @Test
-    public void getUserById(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        User user = mapper.getUserById(2);
-        System.out.println(user);
-        sqlSession.close();
+    public void testLog4j(){
+        logger.info("info:进入了testLog4j方法");
+        logger.debug("debug:进入了testLog4j方法");
+        logger.error("error:进入了testLog4j方法");
     }
-    //增删改必须要提交事务
     @Test
-    public void addUser(){
+    public void getUserByLimit(){
         SqlSession sqlSession = MybatisUtils.getSqlSession();
         UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        int num = mapper.addUser(new User(3, "妹妹", "123456"));
-        if(num>0){
-            System.out.println("用户添加成功");
+        Map<String,Integer> map = new HashMap<>();
+        map.put("startIndex",3);
+        map.put("pageSize",2);
+        List<User> users = mapper.getUserByLimit(map);
+        for (User user : users) {
+            System.out.println(user);
         }
-        //提交事务
-        sqlSession.commit();
         sqlSession.close();
-    }
-    @Test
-    public void updateUser(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        mapper.updateUser(new User(4,"好妹妹","123123"));
-        //提交事务
-        sqlSession.commit();
-        sqlSession.close();
-    }
-    @Test
-    public void deleteUser(){
-        SqlSession sqlSession = MybatisUtils.getSqlSession();
-        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-        mapper.deleteUser(3);
-        sqlSession.commit();
-        sqlSession.close();
-
 
     }
 }

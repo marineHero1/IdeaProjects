@@ -9,6 +9,7 @@
 <!--        标准的日志工厂实现-->
 <!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
         <setting name="logImpl" value="LOG4J"/>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
 <!--    给实体类起别名-->
     <typeAliases>
@@ -28,7 +29,6 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="com/yuan/Dao/StudentMapper.xml"/>
-        <mapper resource="com/yuan/Dao/TeacherMapper.xml"/>
+        <mapper class="com.yuan.Dao.BlogMapper"/>
     </mappers>
 </configuration>

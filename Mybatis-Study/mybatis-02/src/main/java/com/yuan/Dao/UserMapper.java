@@ -17,10 +17,4 @@ public interface UserMapper {
     int updateUser(User user);
     //删除用户
     int deleteUser(int id);
-    //根据用户名和密码查找用户
-    User selectUserByNameAndPwd(@Param("userName") String userName, @Param("pwd") String pwd);
-    //根据用户名和密码查找用户 通过Map传入
-    User selectUserByNameAndPwd(Map<String,Object> map);
-    //模糊查询
-    List<User> selectLike(String name);
 }

@@ -52,6 +52,7 @@ public class ApiHashMap {
             map.put(word,map.getOrDefault(word,0)+1);
         }
         ArrayList<String> list = new ArrayList<>(map.keySet());
+        //Collections.sort(list,(a,b)->(map.get(a).equals(map.get(b)?a.compareTo(b):map.get(b) - map.get(a))
         list.sort((a,b)->{
             if(map.get(a).equals(map.get(b))){
                 return a.compareTo(b);

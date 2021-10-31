@@ -9,6 +9,7 @@ public class Test {
         int[] nums = {3,2,1};
         Arrays.sort(nums);
         String str = "1234";
+        System.out.println(2/3);
         System.out.println("123".substring(3));
         System.out.println("123".substring(2));
         System.out.println("123".substring(0,3));

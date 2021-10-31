@@ -2,6 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c2f5e9c-dc4e-424a-9ada-0c484d2b5212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/Mybatis-Study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/src/main/java/com/yuan/Dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/src/main/java/com/yuan/Dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/src/main/java/com/yuan/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-01/src/test/java/com/yuan/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/main/java/com/yuan/Dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/main/java/com/yuan/Dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/main/java/com/yuan/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-02/src/test/java/com/yuan/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/java/com/yuan/Dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/java/com/yuan/Dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/java/com/yuan/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-03/src/test/java/com/yuan/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/mybatis-04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/main/java/com/yuan/Dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/main/java/com/yuan/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-04/src/test/java/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/java/com/yuan/Dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/java/com/yuan/Dao/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/java/com/yuan/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/java/com/yuan/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/resources/com/yuan/Dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/resources/com/yuan/Dao/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-05/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/java/com/yuan/Dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/java/com/yuan/Dao/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/java/com/yuan/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/java/com/yuan/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/resources/com/yuan/Dao/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/resources/com/yuan/Dao/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-06/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/java/com/yuan/Dao/BlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/java/com/yuan/Dao/BlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/java/com/yuan/pojo/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/java/com/yuan/utils/IDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-07/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/java/com/yuan/Dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/java/com/yuan/Dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/java/com/yuan/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/java/com/yuan/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatis-Study/mybatis-08/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/config/IoCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/life/BeanPostProcessorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/main/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/BussinessPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/DataBaseProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/definition/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/java/com/springboot/chapter2/pojo/definition/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hsd-cipher-sm" beforeDir="false" afterPath="$PROJECT_DIR$/../hsd-cipher-sm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +148,7 @@
       <recent name="ecnu.ObjectOriented.demo04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ApiPriorityQueue">
+  <component name="RunManager" selected="Application.TestThread">
     <configuration name="A" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:\JAVA\jdk1.8.0_162\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -88,19 +177,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo02.ApiPriorityQueue" />
-      <module name="day01-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ecnu.day01.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiRandom (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ApiRandom" />
       <module name="day01-code" />
@@ -108,12 +184,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mmain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo02.Mmain2" />
+    <configuration name="SortQuick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.SortQuick" />
       <module name="day01-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ecnu.day01.demo02.*" />
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day02.demo01.StockTest" />
+      <module name="day02-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day02.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo01.Test" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day01.demo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ecnu.day02.demo01.TestThread" />
+      <module name="day01-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ecnu.day02.demo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,22 +241,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="day01-code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ecnu.day01.demo02.test" />
-      <module name="day01-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ecnu.day01.demo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,19 +303,19 @@
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.ApiRandom (1)" />
-      <item itemvalue="Application.Mmain2" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.ApiArrayList" />
-      <item itemvalue="Application.ApiPriorityQueue" />
-      <item itemvalue="Application.test (1)" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SortQuick" />
+      <item itemvalue="Application.StockTest" />
+      <item itemvalue="Application.TestThread" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiPriorityQueue" />
-        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.TestThread" />
+        <item itemvalue="Application.StockTest" />
+        <item itemvalue="Application.SortQuick" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ApiArrayList" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Mmain2" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +391,14 @@
       <workItem from="1624283018006" duration="942000" />
       <workItem from="1624348798122" duration="3220000" />
       <workItem from="1624369388589" duration="666000" />
-      <workItem from="1624934635392" duration="1640000" />
+      <workItem from="1624934635392" duration="3498000" />
+      <workItem from="1625044717719" duration="2489000" />
+      <workItem from="1625222700662" duration="12087000" />
+      <workItem from="1629179640095" duration="2374000" />
+      <workItem from="1629460205038" duration="914000" />
+      <workItem from="1630205111644" duration="2679000" />
+      <workItem from="1630551109830" duration="14000" />
+      <workItem from="1634643021839" duration="1455000" />
     </task>
     <servers />
   </component>
