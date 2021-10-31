@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--有参构造三种方式-->
+    <!--第一种通过下标赋值-->
+<!--    <bean id="user" class="com.yuan.pojo.User">-->
+<!--        <constructor-arg index="0" value="妹妹2"/>-->
+<!--    </bean>-->
+    <!--第二种通过类型赋值，不建议使用-->
+<!--    <bean id="user" class="com.yuan.pojo.User">-->
+<!--        <constructor-arg type="java.lang.String" value="妹妹3"/>-->
+<!--    </bean>-->
+    <!--第三种通过参数名-->
+    <bean id="user" class="com.yuan.pojo.User" name="user2,u2">
+        <constructor-arg name="name" value="妹妹4"/>
+    </bean>
+    <!--添加别名，原名和原名都可取道bean-->
+    <alias name="user" alias="newUser"/>
+
+    <!--import用于团队开发，可以导入别的xml-->
+
+</beans>
